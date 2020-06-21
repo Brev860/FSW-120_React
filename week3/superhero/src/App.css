@@ -1,0 +1,23 @@
+.img{
+  width: 150px;
+  height: 150px;
+  border: 2px black solid;
+  box-shadow: 2px 6px 9px white;
+ 
+}
+img:hover{
+  opacity: 0.5;
+}
+
+.wrapper{
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  background-color: tomato;
+}
+p{
+  background-color: thistle;
+  font-size: 20px;
+  border: 1px black solid;
+}
