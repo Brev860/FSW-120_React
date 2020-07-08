@@ -1,0 +1,119 @@
+html{
+  background-color: gray;
+}
+.App {
+  text-align: center;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 8px;
+}
+.nav{
+  position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border: 1px white solid;
+    border-radius: 8px;
+}
+.navlink{
+  color: white;
+  padding: 40px;
+ 
+ 
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+  th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: blue;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.about{
+  position: relative;
+  width: 800px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.heading{
+  background-image: url('images/plumber.jpg');
+  background-color: blue;
+  border:2px white solid;
+  border-radius: 10px;
+  height: 150px;
+  top: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.data1{
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  float: left;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+
+}
+.data2{
+  position: absolute;
+  top: 0px;
+  right: 150px;
+  float: right;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+
+}
+
+.para{
+   margin: 10px;
+   padding: 20px;
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  color: white;
+}
+.home{
+  border: 1px white solid;
+  border-radius: 10px;
+  width: 950px;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
