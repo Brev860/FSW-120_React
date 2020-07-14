@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+.wrapper{
+  position: relative;
+  margin: auto;
+  align-items: center;
+  border: 1px black solid;
+  background-color: grey;
+  width: 500px;
+  height: auto;
+
+  padding: 20px;
+}
+
+.inputs{
+  position: relative;
+  margin: auto;
+  align-items: center;
+  border: 1px black solid;
+  background-color: darkgray;
+  padding: 10px;
+  height: auto;
+}
+
+
+
